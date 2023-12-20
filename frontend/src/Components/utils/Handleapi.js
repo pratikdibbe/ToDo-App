@@ -1,7 +1,7 @@
 // Handleapi.js
 import axios from 'axios';
-
-const baseUrl = "http://localhost:7000";
+import { baseUrl} from "../utils/contant";
+// const baseUrl = "http://localhost:7000";
 
 const getALLToDo = (setToDo) => {
   axios.get(baseUrl)
